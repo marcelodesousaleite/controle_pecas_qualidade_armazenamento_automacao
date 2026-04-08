@@ -4,9 +4,9 @@ Este projeto é um sistema lógico desenvolvido em Python para automatizar a ins
 
 ### Funcionamento
 
-O sistema opera através de uma interface de linha de comando \(CLI\) que permite gerenciar o fluxo de produção. O raciocínio lógico segue estes passos:
+O sistema opera através de uma interface de linha de comando (CLI) que permite gerenciar o fluxo de produção. O raciocínio lógico segue estes passos:
 
-1. **Entrada de Dados:** O operador insere as propriedades da peça \(ID, Peso, Cor, Comprimento\).
+1. **Entrada de Dados:** O operador insere as propriedades da peça (ID, Peso, Cor, Comprimento).
 2. **Validação de Qualidade:** O sistema verifica se a peça atende aos requisitos:
     - **Peso:** Entre 95g e 105g.
     - **Cor:** Somente "azul" ou "verde".
@@ -36,7 +36,7 @@ python automacao_industrial.py
 ```
 ### Exemplos de Uso
 
-**Entrada de Dados \(Opção 1\)**
+**Entrada de Dados (Opção 1)**
 
 Ao selecionar a opção de cadastro, o sistema solicitará:
 
@@ -45,19 +45,19 @@ Ao selecionar a opção de cadastro, o sistema solicitará:
 - **Cor:** `azul`
 - **Comprimento:** `15`
 
-**Saída no Terminal \(Aprovação\)**
+**Saída no Terminal (Aprovação)**
 
 ```
 Peça APROVADA e enviada para embalagem.
 ```
-**Saída no Terminal \(Reprovação\)**
+**Saída no Terminal (Reprovação)**
 
 Se os dados forem: ID: `102`, Peso: `110`, Cor: `vermelho`, Comprimento: `5`:
 
 ```
-Peça REPROVADA. Motivos: Peso fora do limite \(110.0g\), Cor não permitida \(vermelho\), Comprimento fora do limite \(5.0cm\)
+Peça REPROVADA. Motivos: Peso fora do limite (110.0g), Cor não permitida (vermelho), Comprimento fora do limite (5.0cm)
 ```
-**Relatório Final \(Opção 5\)**
+**Relatório Final (Opção 5)**
 
 Ao encerrar o turno, o sistema gera um resumo como este:
 
@@ -74,4 +74,4 @@ Caixas Fechadas \(10/10\): 1
 ### Tecnologias Utilizadas
 
 - **Linguagem:** Python 3
-- **Bibliotecas:** `os` \(para limpeza de tela\)
+- **Bibliotecas:** `os` (para limpeza de tela)
