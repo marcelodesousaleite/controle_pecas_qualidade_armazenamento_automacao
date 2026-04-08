@@ -59,7 +59,7 @@ Peça REPROVADA. Motivos: Peso fora do limite (110.0g), Cor não permitida (verm
 ```
 **Relatório Final (Opção 5)**
 
-Ao encerrar o turno, o sistema gera um resumo como este:
+Ao encerrar o turno, o sistema gera um resumo semelhante como este:
 
 ```
 ==================================================
@@ -68,7 +68,7 @@ RELATÓRIO FINAL DE PRODUÇÃO
 Total Aprovadas: 12
 Total Reprovadas: 2
 Caixas Totais: 2
-Caixas Fechadas \(10/10\): 1
+Caixas Fechadas (10/10): 1
 ==================================================
 ```
 ### Tecnologias Utilizadas
