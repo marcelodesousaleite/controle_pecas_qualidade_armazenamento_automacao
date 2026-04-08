@@ -26,13 +26,13 @@ O sistema opera através de uma interface de linha de comando \(CLI\) que permit
 
 ### Passo a Passo
 
-1. Copie o código do arquivo `automacao\_industrial.py` para uma pasta local.
+1. Copie o código do arquivo `automacao_industrial.py` para uma pasta local.
 2. Abra o terminal ou prompt de comando.
 3. Navegue até a pasta onde o arquivo foi salvo.
 4. Execute o comando:
 
 ```
-python automacao\_industrial.py
+python automacao_industrial.py
 ```
 ### Exemplos de Uso
 
